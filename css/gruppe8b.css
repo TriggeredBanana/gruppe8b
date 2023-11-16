@@ -40,6 +40,8 @@ body {
     border-radius: 50px;
     border: 1px solid rgb(194, 176, 150);
     padding: 10px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .knapp-x {
@@ -54,10 +56,7 @@ body {
 .knapp-x:hover {
     box-shadow: 0px 3px 20px rgb(61, 53, 42);
     padding: 7px;
-}
-
-.knapp-x:hover navn-x {
-    color: rgb(110, 97, 78);
+    background-color: rgb(197, 195, 193);
 }
 
 .navn-x {
@@ -93,4 +92,5 @@ body {
     border-radius: 20px;
     border: 1px solid gray;
     margin: 10px;
+    box-shadow: 0px 0px 10px rgb(165, 145, 114);
 }
