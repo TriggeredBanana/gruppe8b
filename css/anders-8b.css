@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 248, 238);
+    font-family: Arial;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.hoved-overskrift {
+    color: rgb(110, 97, 78);
+    font-family: Calibri: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.profilside-overskrift {
+    color: rgb(110, 97, 78);
+    font-size: 30px;
+    text-align: center;
+}

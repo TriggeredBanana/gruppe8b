@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 248, 238);
+    font-family: Arial;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.h-overskrift {
+    color: rgb(110, 97, 78);
+    margin-bottom: 50px;
+}
+
+.p-overskrift {
+    color: rgb(110, 97, 78);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.f-overskrift {
+    color: rgb(110, 97, 78);
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.profilbilde-knapp {
+    background-color: rgb(235, 235, 229);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    border: 1px solid rgb(194, 176, 150);
+    padding: 10px;
+}
+
+.knapp-x {
+    background-color: rgb(235, 233, 231);
+    border: 2px solid rgb(165, 145, 114);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 3px 20px rgb(165, 145, 114);
+    transition: padding 0.25s;
+}
+
+.knapp-x:hover {
+    box-shadow: 0px 3px 20px rgb(61, 53, 42);
+    padding: 7px;
+}
+
+.knapp-x:hover navn-x {
+    color: rgb(110, 97, 78);
+}
+
+.navn-x {
+    font-family: Calibri;
+    color: rgb(165, 145, 114);
+}
+
+.p-img {
+    margin: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.figur-ramme {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 10px;
+    background-color: rgb(235, 235, 229);
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border: 1px solid rgb(194, 176, 150);
+}
+
+.figur-box-x {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin: 10px;
+}
