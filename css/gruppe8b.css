@@ -48,7 +48,7 @@ body {
     border-radius: 10px;
     margin: 10px;
     box-shadow: 0px 3px 20px rgb(165, 145, 114);
-    transition: transform 0.25s;
+    transition: .3s ease all;
 }
 
 .knapp-x:hover {
@@ -152,6 +152,11 @@ body {
 .ramme-pb {
     text-align: center;
     color: rgb(110, 97, 78);
+}
+
+.seperator-line-profile {
+    margin-top: 20px;
+    margin-bottom: 75px;
     border-bottom: 4px solid rgb(165, 145, 114);
 }
 
