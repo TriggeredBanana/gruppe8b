@@ -1,7 +1,9 @@
 "use strict";
 
+const functions = {
+
 // Lagrer funksjonen for rektangel i en variabel 
-const rectangle = function (x, y, length, width, color, name) {
+rectangle: function (x, y, length, width, color, name) {
     var canvas = document.getElementById(name);
     var square = canvas.getContext("2d");
 
@@ -10,10 +12,21 @@ const rectangle = function (x, y, length, width, color, name) {
     square.stroke();
     square.fillStyle = color;
     square.fill();
-};
+},
+
+// Lagrer funksjonen for rektangel i en variabel 
+triangle: function (x, y, x1, y1, x2, y2, color, name) {
+    var canvas = document.getElementById(name);
+    var triangle = canvas.getContext("2d");
+
+    triangle.beginPath();
+    triangle.moveTo(x, y);
+    triangle.lineTo(x1, y1);
+    triangle.lineTo(x2, y2);
+    triangle.fillStyle = color;
+    triangle.fill();
+}
+}
 
 
-
-
-
-export default rectangle;
+export default functions;
