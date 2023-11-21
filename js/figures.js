@@ -33,8 +33,7 @@ const functions = {
         circle.fillStyle = color;
         circle.fill();
     },
-
-    // Lagrer funksjonen for rektangel i en variabel 
+  
     triangle: function (x, y, x1, y1, x2, y2, color, name) {
         var canvas = document.getElementById(name);
         var triangle = canvas.getContext("2d");

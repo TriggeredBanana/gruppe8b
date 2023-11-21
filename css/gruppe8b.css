@@ -194,6 +194,11 @@ body {
 .ramme-pb {
     text-align: center;
     color: rgb(110, 97, 78);
+}
+
+.seperator-line-profile {
+    margin-top: 20px;
+    margin-bottom: 75px;
     border-bottom: 4px solid rgb(165, 145, 114);
     max-width: 350px;
     margin: auto;
