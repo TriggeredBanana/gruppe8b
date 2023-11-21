@@ -1,5 +1,8 @@
 "use strict";
 
-import rectangle from "./figures.js";
+import functions from "./figures.js";
 
-rectangle(10, 10, 100, 100, "black", "canvasA");
+
+
+functions.ellipse(100, 100, 80, 90, 0, 0, "lightgreen", "canvasA");
+functions.circle(60, 75, 30, "white", "canvasA");
