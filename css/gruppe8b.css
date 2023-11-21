@@ -137,6 +137,48 @@ body {
     border: solid 1px gray;
 }
 
+#svgA {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+#svgD {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+#svgE {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+#svgT {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+#svgJ {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+#svgZ {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+#svgJ2 {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
 
 
 
@@ -158,6 +200,8 @@ body {
     margin-top: 20px;
     margin-bottom: 75px;
     border-bottom: 4px solid rgb(165, 145, 114);
+    max-width: 350px;
+    margin: auto;
 }
 
 .profilbilde-img {
@@ -202,7 +246,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 900px;
+    max-width: 750px;
     border-radius: 50px;
     border: 1px solid rgb(194, 176, 150);
     padding: 10px;
@@ -224,6 +268,9 @@ body {
 
 .placeholder-img {
     border: 2px solid rgb(139, 119, 89);
+    height: 200px;
+    width;
+    200px;
     border-radius: 10px;
     margin: 15px;
     box-shadow: 0px 3px 20px rgb(202, 198, 191);
