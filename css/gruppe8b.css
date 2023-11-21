@@ -11,7 +11,7 @@ body {
     padding: 50px;
 }
 
-.h-overskrift {
+.hjemmeside-overskrift {
     color: rgb(110, 97, 78);
     margin-bottom: 50px;
 }
@@ -70,8 +70,8 @@ body {
 }
 
 .figur-ramme {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-top: 10px;
     background-color: rgb(165, 145, 114);
     border: 1px solid gray;
@@ -86,10 +86,137 @@ body {
 }
 
 .figur-box-x {
+    background-color: bisque;
     width: 250px;
     height: 250px;
     border-radius: 20px;
     border: 2px solid rgb(139, 119, 89);
     margin: 15px;
     box-shadow: 0px 3px 20px rgb(202, 198, 191);
+}
+
+#canvasA {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+#canvasD {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+#canvasE {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+#canvasT {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+#canvasJ {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+#canvasZ {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+#canvasJ2 {
+    background-color: rgb(161, 142, 112);
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+
+
+
+
+
+
+
+.profilside-overskrift {
+    color: rgb(110, 97, 78);
+    margin-bottom: 50px;
+}
+
+.ramme-pb {
+    text-align: center;
+    color: rgb(110, 97, 78);
+    border-bottom: 4px solid rgb(165, 145, 114);
+}
+
+.profilbilde-img {
+    border-radius: 50%;
+    border: 2px solid rgb(165, 145, 114);
+}
+
+.biografi-overskrift {
+    color: rgb(110, 97, 78);
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-indent: 15px;
+    text-align: center;
+
+}
+
+.bio-box {
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(165, 145, 114);
+    padding: 20px;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.pf-overskrift {
+    color: rgb(110, 97, 78);
+    margin-top: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.figur-boks {
+    background-color: rgb(165, 145, 114);
+    margin-top: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    border-radius: 50px;
+    border: 1px solid rgb(194, 176, 150);
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Calibri;
+    color: rgb(110, 97, 78);
+}
+
+.placeholder-img {
+    border: 2px solid rgb(139, 119, 89);
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0px 3px 20px rgb(202, 198, 191);
+    transition: transform 0.25s;
+}
+
+.placeholder-img:hover {
+    box-shadow: 0px 3px 20px rgb(61, 53, 42);
+    transform: scale(1.1);
+    background-color: rgb(197, 195, 193);
 }

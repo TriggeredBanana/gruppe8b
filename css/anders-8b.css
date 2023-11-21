@@ -11,7 +11,7 @@ body {
     padding: 50px;
 }
 
-.hoved-overskrift {
+.profilside-overskrift {
     color: rgb(110, 97, 78);
     margin-bottom: 50px;
 }
@@ -22,7 +22,7 @@ body {
     border-bottom: 4px solid rgb(165, 145, 114);
 }
 
-.p-img {
+.profilbilde-img {
     border-radius: 50%;
     border: 2px solid rgb(165, 145, 114);
 }
@@ -56,6 +56,7 @@ body {
     text-align: center;
 }
 
+
 .figur-boks {
     background-color: rgb(165, 145, 114);
     margin-top: 10px;
@@ -78,11 +79,19 @@ body {
     border-radius: 10px;
     margin: 15px;
     box-shadow: 0px 3px 20px rgb(202, 198, 191);
-    transition: padding 0.25s;
+    transition: transform 0.25s;
 }
 
 .placeholder-img:hover {
     box-shadow: 0px 3px 20px rgb(61, 53, 42);
-    transform: 7px;
+    transform: scale(1.1);
     background-color: rgb(197, 195, 193);
+}
+
+#andersCanvas {
+    /* Styling for canvas boksene, inni boksene på hovedsiden og på hver vår side. */
+    width: 200px;
+    height: 200px;
+    background-color: #003049;
+    border-radius: 5px;
 }
