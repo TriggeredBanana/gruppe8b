@@ -148,6 +148,11 @@ body {
     border-radius: 10px;
     border: solid 1px gray;
 }
+.penguin {
+
+    align-items: center;
+    justify-content: center;
+}
 
 #svgE {
     background-color: rgb(161, 142, 112);
@@ -197,11 +202,13 @@ body {
 }
 
 .seperator-line-profile {
+    display: flex;
     margin-top: 20px;
     margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 4px solid rgb(165, 145, 114);
-    max-width: 350px;
-    margin: auto;
+    max-width: 350px;   
 }
 
 .profilbilde-img {
@@ -215,7 +222,9 @@ body {
     margin-bottom: 10px;
     text-indent: 15px;
     text-align: center;
-
+}
+.biografi {
+    text-align: center;
 }
 
 .bio-box {
