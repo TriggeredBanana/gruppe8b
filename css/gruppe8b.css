@@ -75,6 +75,7 @@ body {
     margin-top: 10px;
     background-color: rgb(165, 145, 114);
     border: 1px solid gray;
+    max-width: 1250px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -197,11 +198,31 @@ body {
 }
 
 .seperator-line-profile {
+    display: flex;
     margin-top: 20px;
     margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 4px solid rgb(165, 145, 114);
     max-width: 350px;
-    margin: auto;
+}
+
+.seperator-line-hjemmeside {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px solid rgb(165, 145, 114);
+}
+
+.seperator-line-profile2 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px solid rgb(165, 145, 114);
 }
 
 .profilbilde-img {
@@ -267,18 +288,27 @@ body {
 }
 
 .placeholder-img {
-    border: 2px solid rgb(139, 119, 89);
     height: 200px;
-    width;
-    200px;
+    width: 200px;
+    border: 2px solid rgb(139, 119, 89);
     border-radius: 10px;
-    margin: 15px;
+    margin: 8px;
     box-shadow: 0px 3px 20px rgb(202, 198, 191);
-    transition: transform 0.25s;
+    transition: transform 0.3s;
 }
 
 .placeholder-img:hover {
     box-shadow: 0px 3px 20px rgb(61, 53, 42);
     transform: scale(1.1);
     background-color: rgb(197, 195, 193);
+}
+
+
+.pu-overskrift {
+    color: rgb(110, 97, 78);
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
