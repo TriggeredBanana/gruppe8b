@@ -55,12 +55,12 @@ body {
     box-shadow: 0px 3px 20px rgb(61, 53, 42);
     transform: scale(1.1);
     z-index: 1;
-    background-color: rgb(212, 193, 163);
+    background-color: rgb(226, 210, 184);
 }
 
 .navn-x {
     font-family: Calibri;
-    color: rgb(165, 145, 114);
+    color: rgb(110, 97, 78);
 }
 
 .p-img {
@@ -149,6 +149,7 @@ body {
     border-radius: 10px;
     border: solid 1px gray;
 }
+
 .penguin {
 
     align-items: center;
@@ -209,7 +210,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-bottom: 4px solid rgb(165, 145, 114);
-    max-width: 350px;   
+    max-width: 350px;
 }
 
 .seperator-line-hjemmeside {
@@ -242,6 +243,7 @@ body {
     text-indent: 15px;
     text-align: center;
 }
+
 .biografi {
     text-align: center;
 }
